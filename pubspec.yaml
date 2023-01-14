@@ -1,0 +1,63 @@
+name: three_working
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  three_dart: ^0.0.14
+  # three_dart_jsm: ^0.0.9
+  universal_ui: ^0.0.8
+  flutter_gl: ^0.0.21
+
+dependency_overrides:
+  # three_dart:
+  #   path: ../
+  # three_dart_jsm:
+  #   path: ../../three_dart_jsm
+  # flutter_gl:
+  #   path: ../../flutter_gl/flutter_gl
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  
+flutter:
+
+  uses-material-design: true
+  # assets:
+    # - images/a_dot_burr.jpeg
+    # - images/a_dot_ham.jpeg
+
+  assets:
+    # - assets/helvetiker_bold.typeface.json
+    - assets/pingfang.ttf
+    - assets/kenpixel.ttf
+    - assets/winter.jpg
+    - assets/lut.cube
+    - assets/demo.png
+    - assets/KOMO-v5.cube
+    - assets/screenshots/
+    - assets/models/svg/
+    - assets/models/
+    - assets/textures/
+    - assets/textures/terrain/
+    - assets/textures/patterns/
+    - assets/textures/sprites/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
